@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<style>
+    body {
+        background-image: url(img/download.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .container {
+        border-radius: 30px;
+        background-color: lightblue;
+    }
+    .header {
+        background-image: url(img/images.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+<body>
+    <div class="header">
+        <h1>Movie Dashboard</h1>
+        <a href="php/logout.php">Logout</a>
+    </div>
+    <div class="container">
+        <h1>Available Movies</h1>
+        <p class="movies">
+            <h3 class="a">TITLE: Bad Boys For Life</h3>
+            <img src="img/bad-boys-for-life.jpg" alt="bad-boys-for-life" height="600px" class="img">
+           
+            <br><br>
+            <iframe class="trailer" style="align-items: center;" height="600px" src="https://www.youtube.com/embed/jKCj3XuPG8M?si=QP6QU9szqjXKlzJS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="btn"><dl>
+                <dt class="title">Title</dt>
+                <dd class="title">Bad Boy For Life</dd>
+                <dt class="title">Genre</dt>
+                <dd class="title">Action Comedy</dd>
+                <dt class="title">Year</dt>
+                <dd class="title">2020</dd>
+                <dt class="title">Size</dt>
+                <dd class="title">363MB</dd>
+            </dl></p>
+            <button class="download-btn" data-movie-id="1" data-user-id="1"><a href="https://downloadwella.com/iyp9li1im39a/{nkiri.com}.Bad.Boys.For.Life.mkv.html" download class="anna">Download</a></button>
+        </p>
+        <hr>
+        <p class="movies">
+            <h3 class="a">TITLE: Bad Boys For Life</h3>
+            <img src="img/Die Harter.jpg" alt="bad-boys-for-life" height="600px" class="img">
+           
+            <br><br>
+            <iframe class="trailer" style="align-items: center;" height="600px" src="https://www.youtube.com/embed/SMdcfLYl4hI?si=qPXFXMaZULdOuFZ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="btn"><dl>
+                <dt class="title">Title</dt>
+                <dd class="title">Die Hart 2 </dd>
+                <dt class="title">Genre</dt>
+                <dd class="title">Action Comedy</dd>
+                <dt class="title">Year</dt>
+                <dd class="title">2024</dd>
+                <dt class="title">Size</dt>
+                <dd class="title">176MB</dd>
+            </dl></p>
+            <button class="download-btn" data-movie-id="1" data-user-id="1"><a href="https://dweds10.downloadwella.com/d/t4wvc5ddbwatc4c5ehyryq7nzpb3lnjvlmjxjaiooqkn4nirnor6f7s4vmgim37af7mzu2mb/%7Bnkiri.com%7D.Bad.Boys.For.Life.mkv" download class="anna">Download</a></button>
+        </p>
+        <hr>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

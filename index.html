@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Download System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Movie Download System</h1>
+    </div>
+    <div class="container">
+        <div id="login-section">
+            <h2>Login</h2>
+            <form action="php/login.php" method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" onclick="showRegister()">Register here</a></p>
+        </div>
+        
+        <div id="register-section" style="display: none;">
+            <h2>Register</h2>
+            <form action="php/register.php" method="post">
+                <div class="form-group">
+                    <label for="reg_username">Username:</label>
+                    <input type="text" id="reg_username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg_password">Password:</label>
+                    <input type="password" id="reg_password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Login here</a></p>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
